@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "idCategory": 1,
+        "name": "Corn Dog",
+        "description": "Deliciosa banderilla frita con cubierta y espolvoreada de azucar.",
+        "price": 60,
+        "stock": 30,
+        "img": "1corndog.jpg"
+    },
+    {
+        "id": 2,
+        "idCategory": 1,
+        "name": "Ramyeon",
+        "description": "Deliciosa sopa de fideos acompañada de vegetales y tocino.",
+        "price": 85,
+        "stock": 30,
+        "img": "2ramyeon.jpg"
+    },
+    {
+        "id": 3,
+        "idCategory": 1,
+        "name": "Bibimbap",
+        "description": "Tazón de arroz blanco acompañado de espinacas, champiñones, carne de res, zanahoria, calabacita y huevo frito.",
+        "price": 95,
+        "stock": 30,
+        "img": "3bibimbap.jpg"
+    },
+    {
+        "id": 4,
+        "idCategory": 1,
+        "name": "Crepa Salada",
+        "description": "Ingredientes: queso mozarella, queso crema, jamón, peperoni y champiñones.",
+        "price": 65,
+        "stock": 30,
+        "img": "4crepasal.jpg"
+    },
+    {
+        "id": 5,
+        "idCategory": 1,
+        "name": "Crepa Dulce",
+        "description": "Ingredientes: Crema de avellana, cajeta y mermelada de fresa.",
+        "price": 65,
+        "stock": 30,
+        "img": "5crepadul.jpg"
+    },
+    {
+        "id": 6,
+        "idCategory": 1,
+        "name": "Waffle con Helado",
+        "description": "Doradito al natural, acompañado de dos bolitas de helado del sabor a tu elección.",
+        "price": 65,
+        "stock": 30,
+        "img": "6waffle.jpg"
+    },
+    {
+        "id": 7,
+        "idCategory": 2,
+        "name": "Café Espresso",
+        "description": "De sabor y textura concentrados.",
+        "price": 20,
+        "stock": 30,
+        "img": "7espresso.jpg"
+    },
+    {
+        "id": 8,
+        "idCategory": 2,
+        "name": "Espresso Cortado",
+        "description": "Acompañado de un toque de leche.",
+        "price": 25,
+        "stock": 30,
+        "img": "8cutespresso.jpg"
+    },
+    {
+        "id": 9,
+        "idCategory": 2,
+        "name": "Café Americano",
+        "description": "El clásico.",
+        "price": 30,
+        "stock": 30,
+        "img": "9americano.jpg"
+    },
+    {
+        "id": 10,
+        "idCategory": 2,
+        "name": "Capuccino",
+        "description": "Preparado con café y la tradicional espuma de leche tibia.",
+        "price": 50,
+        "stock": 30,
+        "img": "10capuccino.jpg"
+    },
+    {
+        "id": 11,
+        "idCategory": 2,
+        "name": "Latte",
+        "description": "Café espresso como base y una fina capa de leche encima.",
+        "price": 50,
+        "stock": 30,
+        "img": "11latte.jpg"
+    },
+    {
+        "id": 12,
+        "idCategory": 2,
+        "name": "Café Dalgona",
+        "description": "Leche fría o caliente acompañada de espuma de café y azúcar.",
+        "price": 55,
+        "stock": 30,
+        "img": "12dalgona.jpg"
+    }
+]
