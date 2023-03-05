@@ -6,7 +6,7 @@
         "description": "Deliciosa banderilla frita con cubierta y espolvoreada de azucar.",
         "price": 60,
         "stock": 30,
-        "img": "1corndog.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ib-react2023.appspot.com/o/1corndog.jpg?alt=media&token=5d371ade-347a-432a-9251-31b62a276e55"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "description": "Deliciosa sopa de fideos acompañada de vegetales y tocino.",
         "price": 85,
         "stock": 30,
-        "img": "2ramyeon.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ib-react2023.appspot.com/o/2ramyeon.jpg?alt=media&token=6379ca22-f292-40c1-a75f-a049410b1e4e"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "description": "Tazón de arroz blanco acompañado de espinacas, champiñones, carne de res, zanahoria, calabacita y huevo frito.",
         "price": 95,
         "stock": 30,
-        "img": "3bibimbap.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ib-react2023.appspot.com/o/3bibimbap.jpg?alt=media&token=8e5215e8-2f02-47b8-acd4-59ae593ca7cf"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "description": "Ingredientes: queso mozarella, queso crema, jamón, peperoni y champiñones.",
         "price": 65,
         "stock": 30,
-        "img": "4crepasal.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ib-react2023.appspot.com/o/4crepasal.jpg?alt=media&token=74c2a37b-fc6a-44be-b76f-6e07a5a7ee52"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "description": "Ingredientes: Crema de avellana, cajeta y mermelada de fresa.",
         "price": 65,
         "stock": 30,
-        "img": "5crepadul.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ib-react2023.appspot.com/o/5crepadul.jpg?alt=media&token=366271f7-a30b-4875-a801-d5a32b0348f4"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "description": "Doradito al natural, acompañado de dos bolitas de helado del sabor a tu elección.",
         "price": 65,
         "stock": 30,
-        "img": "6waffle.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ib-react2023.appspot.com/o/6waffle.jpg?alt=media&token=5eb5e975-b604-44dd-9a8d-9868b781c173"
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "description": "De sabor y textura concentrados.",
         "price": 20,
         "stock": 30,
-        "img": "7espresso.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ib-react2023.appspot.com/o/7espresso.jpg?alt=media&token=5472b050-829d-45f6-aa85-e8efad241dd9"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "description": "Acompañado de un toque de leche.",
         "price": 25,
         "stock": 30,
-        "img": "8cutespresso.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ib-react2023.appspot.com/o/8cutespresso.jpg?alt=media&token=79ff2cd2-7ed8-48ef-947b-e35af7c410af"
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "description": "El clásico.",
         "price": 30,
         "stock": 30,
-        "img": "9americano.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ib-react2023.appspot.com/o/9americano.jpg?alt=media&token=170f49a5-0d54-4505-bdd7-3a6b282b9ab5"
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "description": "Preparado con café y la tradicional espuma de leche tibia.",
         "price": 50,
         "stock": 30,
-        "img": "10capuccino.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ib-react2023.appspot.com/o/10capuccino.jpg?alt=media&token=081dc826-0b0a-4414-9860-39fbffce4507"
     },
     {
         "id": 11,
@@ -96,7 +96,7 @@
         "description": "Café espresso como base y una fina capa de leche encima.",
         "price": 50,
         "stock": 30,
-        "img": "11latte.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ib-react2023.appspot.com/o/11latte.jpg?alt=media&token=b3d6174f-4f0f-4a18-a952-6756327986b2"
     },
     {
         "id": 12,
@@ -105,6 +105,6 @@
         "description": "Leche fría o caliente acompañada de espuma de café y azúcar.",
         "price": 55,
         "stock": 30,
-        "img": "12dalgona.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ib-react2023.appspot.com/o/12dalgona.jpg?alt=media&token=6a1df2e0-cdaf-41af-ba6b-4b7270764b9a"
     }
 ]

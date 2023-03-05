@@ -1,6 +1,11 @@
 import {useState,useEffect} from 'react';
 import { useParams } from 'react-router-dom';
+
+//Components
 import {ItemList} from '../ItemList/ItemList';
+
+//Context
+
 
 export const ItemListContainer = () => {
     const [products, setProducts] = useState([])
@@ -12,7 +17,7 @@ export const ItemListContainer = () => {
             .then(response => response.json())
             .then(items => {
                 const prods = items.filter(prod => prod.idCategory === parseInt(idCategory))
-                const productsList = ItemList ({prods})
+                const productsList = <ItemList prods={prods} template={'item'}/>
                 console.log(productsList)
                 setProducts(productsList)
             })
@@ -21,7 +26,7 @@ export const ItemListContainer = () => {
             .then(response => response.json())
             .then(prods => {
                 console.log(prods)
-                const productsList = ItemList ({prods})
+                const productsList = <ItemList prods={prods} template={'item'}/>
                 console.log(productsList)
                 setProducts(productsList)
             })

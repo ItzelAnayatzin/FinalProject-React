@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 const CartWidget = () => {
     return (
         <div>
-            <button className="btn">Carrito</button>
+            <Link className="nav-link" to={'/cart'}><button className="btn">Carrito</button></Link>
             <p>1</p>
         </div>
     );
