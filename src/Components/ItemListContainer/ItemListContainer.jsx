@@ -7,27 +7,25 @@ import {ItemList} from '../ItemList/ItemList';
 //Context
 
 
+//Firebase
+import { getProducts } from '../../Firebase/Firebase';
+
 export const ItemListContainer = () => {
     const [products, setProducts] = useState([])
     const {idCategory} = useParams ()
 
     useEffect(() => {
         if (idCategory){
-            fetch('../json/products.json')
-            .then(response => response.json())
+            getProducts()
             .then(items => {
                 const prods = items.filter(prod => prod.idCategory === parseInt(idCategory))
                 const productsList = <ItemList prods={prods} template={'item'}/>
-                console.log(productsList)
                 setProducts(productsList)
             })
         } else {
-            fetch('./json/products.json')
-            .then(response => response.json())
+            getProducts()
             .then(prods => {
-                console.log(prods)
                 const productsList = <ItemList prods={prods} template={'item'}/>
-                console.log(productsList)
                 setProducts(productsList)
             })
         }

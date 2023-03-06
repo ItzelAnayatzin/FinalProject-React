@@ -1,14 +1,13 @@
 import { Link } from "react-router-dom"
 import { ItemList } from "../ItemList/ItemList"
+import { useCartContext } from "../../Context/CartContext"
+
 export const Cart = () => {
-    const shopCart = [
-        {id: 1, name: "Corndog", img: '1corndog.jpg', price: 60, quantity: 5 },
-        {id: 2, name : "Ramyeon", img: '2ramyeon.jpg', price: 85, quantity: 2 },
-        {id: 3, name : "Bibimbap", img: '3bibimbap.jpg', price: 90, quantity: 3 },
-    ]
+    const {cart, totalPrice, emptyCart } = useCartContext()
+    
     return(
         <>
-            {shopCart.length === 0 
+            {cart.length === 0 
               ? //Empty cart
                 <>
                     <h2>No hay artículos en tu carrito</h2>
@@ -17,13 +16,13 @@ export const Cart = () => {
               : //Cart with products
               <div className="container cartContainer">
                     {
-                        <ItemList prods={shopCart} template={'itemCart'}/>
+                        <ItemList prods={cart} template={'itemCart'}/>
                     }
-                    <div className="divButtons">
-                        <p>Resumen de la compra: total</p>
-                        <button className="btn btn-danger">Vaciar carrito</button>
-                        <Link className="nav-link" to={'/'}><button className="btn btn-dark">Seguir comprando</button></Link> 
-                        <Link className="nav-link" to={'/checkout'}><button className="btn btn-dark">Finalizar pedido</button></Link> 
+                    <div className="divButtons d-flex flex-row justify-content-center align-items-center">
+                        <p>Resumen de la compra: ${totalPrice()}</p>
+                        <button className="btn btn-outline-danger m-5" onClick={() => emptyCart()}>Vaciar carrito</button>
+                        <Link className="nav-link m-5" to={'/'}><button className="btn btn-outline-primary">Seguir comprando</button></Link> 
+                        <Link className="nav-link m-5" to={'/checkout'}><button className="btn btn-outline-primary">Realizar pedido</button></Link> 
                     </div>
               </div>
             }
