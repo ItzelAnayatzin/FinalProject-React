@@ -33,19 +33,11 @@ export const Checkout = () => {
             navigate("/")
         })
 
-        //Email check.
-        function VerifyEmail(id) {
-            let characters = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-                if (characters.test(document.getElementById(id).value)){
-                return true;
-                }
-                return false;
-            }
-            
-        function Verify(id1, id2){
-            let email = document.getElementById(id1);
-            let confirmEmail = document.getElementById(id2);
-                if(VerifyEmail(id1) && VerifyEmail(id2) && email.value == confirmEmail.value){
+        //Email check.  
+        const Verify = (id1, id2) =>{
+            const email = document.getElementById(id1);
+            const confirmEmail = document.getElementById(id2);
+                if(Verify(id1) && Verify(id2) && email.value == confirmEmail.value){
                 return true;
                 }
                 return false;
@@ -65,7 +57,7 @@ export const Checkout = () => {
             :
             //Purchase form.
                 <div id="f1" className="container" style={{marginTop:"20px"}}>
-                <form id="myform" onsubmit="if(!Verify('email', 'confirmEmail')){ alert('Email Doesnt Match, Verify Again'); return false; }" onSubmit={consultForm} ref={dataForm}>
+                <form onSubmit={consultForm} ref={dataForm} id="myform">
                     <div className="mb-3">
                         <label htmlFor="name" className="form-label">Nombre y Apellido</label>
                         <input type="text" className="form-control" name="name"/>

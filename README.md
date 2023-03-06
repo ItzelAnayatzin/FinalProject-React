@@ -23,12 +23,12 @@ localhost: 3000
 ```
 
 _This project was created with:_
-[React] (https://es.reactjs.org/) - JavaScript Framework
-[Bootstrap] (https://getbootstrap.com/) - HTML/CSS/JS Library
-[Bootswatch] (https://bootswatch.com/) - Themes for Bootstrap
-[Firebase] (https://firebase.google.com/?hl=es) - Server and Database
-[Toastify] (https://fkhadra.github.io/react-toastify/introduction/) - Notifications
+* [React] (https://es.reactjs.org/) - JavaScript Framework
+* [Bootstrap] (https://getbootstrap.com/) - HTML/CSS/JS Library
+* [Bootswatch] (https://bootswatch.com/) - Themes for Bootstrap
+* [Firebase] (https://firebase.google.com/?hl=es) - Server and Database
+* [Toastify] (https://fkhadra.github.io/react-toastify/introduction/) - Notifications
 
 ## SCREENSHOT
-![alt text] (https://firebasestorage.googleapis.com/v0/b/ib-react2023.appspot.com/o/screen1.jpg?alt=media&token=dd7b204c-8183-44e0-bdd9-43e542b185bc)
-![alt text] (https://firebasestorage.googleapis.com/v0/b/ib-react2023.appspot.com/o/screen2.jpg?alt=media&token=5a5622a5-1d82-4c55-9d36-280e0eb1fb1b)
+* ![alt text] (https://firebasestorage.googleapis.com/v0/b/ib-react2023.appspot.com/o/screen1.jpg?alt=media&token=dd7b204c-8183-44e0-bdd9-43e542b185bc)
+* ![alt text] (https://firebasestorage.googleapis.com/v0/b/ib-react2023.appspot.com/o/screen2.jpg?alt=media&token=5a5622a5-1d82-4c55-9d36-280e0eb1fb1b)
